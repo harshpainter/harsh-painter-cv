@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=JetBrains+Mono:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F4F4F0;
+    background-image: 
+      linear-gradient(rgba(0,0,0,0.06) 1px, transparent 1px), 
+      linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  /* Custom retro blocky scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #F4F4F0;
+    border-left: 4px solid #000000;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000000;
+    border: 2px solid #F4F4F0;
+  }
+
+  /* Selection highlight */
+  ::selection {
+    background-color: #F472B6; /* Candy pink */
+    color: #000000;
+  }
+}
+
+/* Premium Neo-Brutalist micro-interactions and custom styles */
+.mono-text {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Hide scrollbars but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Custom shadow classes if needed */
+.neo-shadow {
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+}
+
+.neo-shadow-hover {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.neo-shadow-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+}
