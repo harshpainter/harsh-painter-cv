@@ -296,44 +296,162 @@ function ValueDeck() {
           {/* Case Studies grid */}
           <div className="space-y-6 lg:max-h-[64vh] lg:overflow-y-auto pr-2 no-scrollbar">
             
-            {/* Box 1: Finegrown */}
+            {/* Case Study 01 */}
             <div className="bg-white border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] grid grid-cols-1 md:grid-cols-12 gap-5 items-stretch">
-              <div className="md:col-span-4 flex flex-col justify-between bg-[#FBBF24] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0 select-none">
-                <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
-                  Finegrown Infrastructure Overhaul
-                </h3>
-                <span className="font-mono text-[9px] font-extrabold bg-white border border-black px-1.5 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4">CASE STUDY 01</span>
+              <div className="md:col-span-4 flex flex-col justify-between bg-[#FB923C] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0">
+                <div className="space-y-1.5 select-none">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block">CASE STUDY 01</span>
+                  <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
+                    LUXURY WORKFLOW AUTOMATION
+                  </h3>
+                </div>
+                <div className="font-mono text-[9px] font-extrabold bg-white border border-black px-2 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4 uppercase">
+                  Finegrown Diamonds
+                </div>
               </div>
               
               <div className="md:col-span-8 space-y-3.5 flex flex-col justify-between text-xs sm:text-sm font-semibold">
                 <div className="space-y-2">
-                  <div><span className="font-mono font-bold text-zinc-500 block text-[9px] uppercase tracking-wider select-none">The Inefficiency:</span> Multi-department friction coordinating 1,000+ product SKUs alongside variable daily market changes.</div>
-                  <div><span className="font-mono font-bold text-zinc-500 block text-[9px] uppercase tracking-wider select-none">The Build:</span> Developed an independent pipeline utilizing n8n + JavaScript to automate communication alerts, unified multiple contact channels into one absolute CRM view, and engineered real-time automated alerts for global commodity rate metrics (Gold, Silver, USD).</div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Challenge</span>
+                    <p className="text-black">Coordination friction across 1,000+ luxury SKUs.</p>
+                  </div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Build</span>
+                    <p className="text-black/90">Built custom n8n + JavaScript automated workflows, integrated a centralized CRM, and automated live commodity tracking nodes (Gold/Silver/USD) directly into Slack.</p>
+                  </div>
                 </div>
                 <div className="bg-[#D1FAE5] border-2 border-black p-2.5 font-mono text-[9.5px] sm:text-xs font-black text-black flex items-center gap-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] mt-2 select-none">
-                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none">PROOF</span>
-                  <span>Cut manual tracking and operational overhead by ~40% across 6 cross-functional team spaces.</span>
+                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none shrink-0">IMPACT</span>
+                  <span>40% reduction in manual operational tasks.</span>
                 </div>
               </div>
             </div>
 
-            {/* Box 2: ArkWave */}
+            {/* Case Study 02 */}
             <div className="bg-white border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] grid grid-cols-1 md:grid-cols-12 gap-5 items-stretch">
-              <div className="md:col-span-4 flex flex-col justify-between bg-[#38BDF8] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0 select-none">
-                <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
-                  ArkWave Scale Infrastructure
-                </h3>
-                <span className="font-mono text-[9px] font-extrabold bg-white border border-black px-1.5 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4">CASE STUDY 02</span>
+              <div className="md:col-span-4 flex flex-col justify-between bg-[#34D399] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0">
+                <div className="space-y-1.5 select-none">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block">CASE STUDY 02</span>
+                  <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
+                    OUTBOUND REVOPS & GTM SYSTEMS
+                  </h3>
+                </div>
+                <div className="font-mono text-[9px] font-extrabold bg-white border border-black px-2 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4 uppercase">
+                  Finegrown Luxury Studio
+                </div>
               </div>
               
               <div className="md:col-span-8 space-y-3.5 flex flex-col justify-between text-xs sm:text-sm font-semibold">
                 <div className="space-y-2">
-                  <div><span className="font-mono font-bold text-zinc-500 block text-[9px] uppercase tracking-wider select-none">The Inefficiency:</span> High human-error dependencies across decentralized remote startups.</div>
-                  <div><span className="font-mono font-bold text-zinc-500 block text-[9px] uppercase tracking-wider select-none">The Build:</span> Architected and launched 20+ specialized custom workflow engines spanning CRM management, data handling validation, and automated lead tracking nodes.</div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Challenge</span>
+                    <p className="text-black">Structuring pipelines and building data-driven outreach for a brand new business vertical.</p>
+                  </div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Build</span>
+                    <p className="text-black/90">Defined Ideal Customer Profiles (ICP) and engineered a complex automated B2B outbound sequencing stack using Clay, Apollo, and Reply.io.</p>
+                  </div>
                 </div>
                 <div className="bg-[#D1FAE5] border-2 border-black p-2.5 font-mono text-[9.5px] sm:text-xs font-black text-black flex items-center gap-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] mt-2 select-none">
-                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none">PROOF</span>
-                  <span>Eliminated repetitive admin loops and stabilized high scalability for global clients.</span>
+                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none shrink-0">IMPACT</span>
+                  <span>Drastically accelerated pipeline clearings and outreach execution speed.</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Case Study 03 */}
+            <div className="bg-white border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] grid grid-cols-1 md:grid-cols-12 gap-5 items-stretch">
+              <div className="md:col-span-4 flex flex-col justify-between bg-[#FBBF24] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0">
+                <div className="space-y-1.5 select-none">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block">CASE STUDY 03</span>
+                  <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
+                    NEW MARKET B2C PLATFORM LAUNCH
+                  </h3>
+                </div>
+                <div className="font-mono text-[9px] font-extrabold bg-white border border-black px-2 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4 uppercase">
+                  Finegrown Diamonds
+                </div>
+              </div>
+              
+              <div className="md:col-span-8 space-y-3.5 flex flex-col justify-between text-xs sm:text-sm font-semibold">
+                <div className="space-y-2">
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Challenge</span>
+                    <p className="text-black">Deploying a brand-new retail website and digital acquisition system with zero legacy workflow logs.</p>
+                  </div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Build</span>
+                    <p className="text-black/90">Built end-to-end backend sales pipelines from scratch, integrated automated customer support routing, and designed cross-functional analytics dashboards.</p>
+                  </div>
+                </div>
+                <div className="bg-[#D1FAE5] border-2 border-black p-2.5 font-mono text-[9.5px] sm:text-xs font-black text-black flex items-center gap-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] mt-2 select-none">
+                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none shrink-0">IMPACT</span>
+                  <span>Established total metric visibility and stabilized launch execution cycles.</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Case Study 04 */}
+            <div className="bg-white border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] grid grid-cols-1 md:grid-cols-12 gap-5 items-stretch">
+              <div className="md:col-span-4 flex flex-col justify-between bg-[#C084FC] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0">
+                <div className="space-y-1.5 select-none">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block">CASE STUDY 04</span>
+                  <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
+                    MARKET ROLLOUT & INVENTORY AUTOMATION
+                  </h3>
+                </div>
+                <div className="font-mono text-[9px] font-extrabold bg-white border border-black px-2 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4 uppercase">
+                  Riya Enterprise
+                </div>
+              </div>
+              
+              <div className="md:col-span-8 space-y-3.5 flex flex-col justify-between text-xs sm:text-sm font-semibold">
+                <div className="space-y-2">
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Challenge</span>
+                    <p className="text-black">Launching a B2B supplier brand into local B2C retail markets while handling manual vendor logs.</p>
+                  </div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Build</span>
+                    <p className="text-black/90">Managed multi-channel platform administration and supply inventory logistics while automating customer support pipelines to absorb new volume.</p>
+                  </div>
+                </div>
+                <div className="bg-[#D1FAE5] border-2 border-black p-2.5 font-mono text-[9.5px] sm:text-xs font-black text-black flex items-center gap-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] mt-2 select-none">
+                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none shrink-0">IMPACT</span>
+                  <span>Successfully localized market share and enhanced day-to-day team efficiency.</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Case Study 05 */}
+            <div className="bg-white border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] grid grid-cols-1 md:grid-cols-12 gap-5 items-stretch">
+              <div className="md:col-span-4 flex flex-col justify-between bg-[#FB923C] border-2 border-black p-4 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] min-h-[14vh] md:min-h-0">
+                <div className="space-y-1.5 select-none">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block">CASE STUDY 05</span>
+                  <h3 className="text-base sm:text-lg font-black uppercase tracking-tight text-black leading-tight">
+                    SYSTEM DATA ANALYTICS & DATABASE ENG
+                  </h3>
+                </div>
+                <div className="font-mono text-[9px] font-extrabold bg-white border border-black px-2 py-0.5 shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] self-start mt-4 uppercase">
+                  Perrian
+                </div>
+              </div>
+              
+              <div className="md:col-span-8 space-y-3.5 flex flex-col justify-between text-xs sm:text-sm font-semibold">
+                <div className="space-y-2">
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Challenge</span>
+                    <p className="text-black">Legacy data fragmentation and slow executive performance reporting cycles.</p>
+                  </div>
+                  <div>
+                    <span className="font-mono text-[9px] uppercase tracking-wider text-zinc-500 font-bold block select-none">Build</span>
+                    <p className="text-black/90">Programmed advanced SQL queries to run quarterly financial audits, engineered automated data loops, and co-developed B2B e-commerce inventory management systems.</p>
+                  </div>
+                </div>
+                <div className="bg-[#D1FAE5] border-2 border-black p-2.5 font-mono text-[9.5px] sm:text-xs font-black text-black flex items-center gap-2 shadow-[3px_3px_0px_0px_rgba(0,0,0,1)] mt-2 select-none">
+                  <span className="text-[9px] uppercase px-1.5 py-0.5 bg-white border border-black leading-none shrink-0">IMPACT</span>
+                  <span>Replaced manual reporting cycles with absolute financial and operational transparency for executive leadership.</span>
                 </div>
               </div>
             </div>
