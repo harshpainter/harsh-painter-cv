@@ -79,7 +79,7 @@ function ValueDeck() {
             {/* Left side: HUGE bold header */}
             <div className="lg:col-span-5">
               <div className="bg-[#FB923C] border-4 border-black p-6 sm:p-8 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] h-full flex flex-col justify-between min-h-[22vh]">
-                <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black uppercase tracking-tight text-black leading-none select-none">
+                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black uppercase tracking-tight text-black leading-none select-none">
                   THE OPERATIONAL LEVERAGE
                 </h2>
                 <div className="font-mono text-[10px] uppercase tracking-wider text-black/60 font-black border-t border-black/20 pt-4 mt-6">
