@@ -154,7 +154,7 @@ function ValueDeck() {
             <div className="bg-[#38BDF8] border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
               <div className="space-y-4">
                 <h3 className="text-lg sm:text-xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none leading-tight">
-                  [ 01 // ARCHITECTURAL WORKFLOW ENGINEERING ]
+                  [ 01 // ARCHITECTURAL WORKFLOW <span className="whitespace-nowrap">ENGINEERING ]</span>
                 </h3>
                 
                 {/* Core Thesis */}
@@ -194,7 +194,7 @@ function ValueDeck() {
             <div className="bg-[#F472B6] border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
               <div className="space-y-4">
                 <h3 className="text-lg sm:text-xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none leading-tight">
-                  [ 02 // REVENUE OPERATIONS & GTM ARCHITECTURE ]
+                  [ 02 // REVENUE OPERATIONS & GTM <span className="whitespace-nowrap">ARCHITECTURE ]</span>
                 </h3>
                 
                 {/* Core Thesis */}
@@ -234,7 +234,7 @@ function ValueDeck() {
             <div className="bg-[#A78BFA] border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
               <div className="space-y-4">
                 <h3 className="text-lg sm:text-xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none leading-tight">
-                  [ 03 // DIGITAL SUPPLY CHAIN & SKU INFRASTRUCTURE ]
+                  [ 03 // DIGITAL SUPPLY CHAIN & SKU <span className="whitespace-nowrap">INFRASTRUCTURE ]</span>
                 </h3>
                 
                 {/* Core Thesis */}
