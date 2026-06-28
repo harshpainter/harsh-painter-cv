@@ -94,7 +94,7 @@ function Home() {
           transition={{ type: 'spring', stiffness: 100, damping: 15 }}
         >
           <div className="space-y-2">
-            <h1 className="text-5xl sm:text-7xl lg:text-9xl font-black uppercase tracking-tighter text-black leading-none select-none">
+            <h1 className="text-4xl sm:text-6xl lg:text-8xl font-black uppercase tracking-tighter text-black leading-none select-none sm:whitespace-nowrap">
               {profile.name}
             </h1>
             
