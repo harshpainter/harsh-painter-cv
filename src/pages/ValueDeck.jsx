@@ -67,7 +67,7 @@ function ValueDeck() {
           
           <div className="space-y-1 select-none">
             <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-500 font-extrabold block">Slide 01 // Overview</span>
-            <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
+            <h2 className="text-lg sm:text-2xl lg:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
               THE VALUE IN BRIEF
             </h2>
           </div>
@@ -140,7 +140,7 @@ function ValueDeck() {
           
           <div className="space-y-1 select-none">
             <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-500 font-extrabold block">Slide 02 // Core Competencies</span>
-            <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
+            <h2 className="text-lg sm:text-2xl lg:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
               ARCHITECTURAL SKILLS & TECH DNA
             </h2>
           </div>
@@ -286,7 +286,7 @@ function ValueDeck() {
           
           <div className="space-y-1 select-none">
             <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-500 font-extrabold block">Slide 03 // Real World Proof</span>
-            <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
+            <h2 className="text-lg sm:text-2xl lg:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
               SIGNATURE LANDMARK SYSTEMS DELIVERED
             </h2>
           </div>
@@ -472,7 +472,7 @@ function ValueDeck() {
           
           <div className="space-y-1 select-none">
             <span className="font-mono text-[10px] uppercase tracking-wider text-zinc-500 font-extrabold block">Slide 04 // Credentials</span>
-            <h2 className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
+            <h2 className="text-lg sm:text-2xl lg:text-3xl font-black uppercase tracking-tight text-black border-4 border-black bg-white px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] inline-block">
               RECOGNIZED TRAINING & CORE STACK
             </h2>
           </div>
