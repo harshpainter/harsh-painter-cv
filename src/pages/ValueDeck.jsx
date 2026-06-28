@@ -151,68 +151,122 @@ function ValueDeck() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
             
             {/* Column 1: Vibrant Cyan */}
-            <div className="bg-[#38BDF8] border-4 border-black p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
-              <div className="space-y-3">
-                <h3 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none">
-                  AUTOMATION ENGINE
+            <div className="bg-[#38BDF8] border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
+              <div className="space-y-4">
+                <h3 className="text-lg sm:text-xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none leading-tight">
+                  [ 01 // ARCHITECTURAL WORKFLOW ENGINEERING ]
                 </h3>
-                <ul className="space-y-3.5 text-xs sm:text-sm font-semibold leading-relaxed pl-0 list-none text-black">
-                  <li className="relative pl-4">
-                    <span className="absolute left-0 top-1.5 w-1.5 h-1.5 bg-black border border-black"></span>
-                    Advanced workflow builds utilizing <span className="font-mono bg-white border border-black px-1.5 py-0.5 rounded shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-[9px] sm:text-xxs font-extrabold uppercase">n8n</span>, <span className="font-mono bg-white border border-black px-1.5 py-0.5 rounded shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-[9px] sm:text-xxs font-extrabold uppercase">Make</span>, and <span className="font-mono bg-white border border-black px-1.5 py-0.5 rounded shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-[9px] sm:text-xxs font-extrabold uppercase">Zapier</span>.
-                  </li>
-                  <li className="relative pl-4">
-                    <span className="absolute left-0 top-1.5 w-1.5 h-1.5 bg-black border border-black"></span>
-                    Execution of secure API integrations and custom JavaScript workflow scripting.
-                  </li>
-                </ul>
+                
+                {/* Core Thesis */}
+                <div className="space-y-1">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block select-none">Core Thesis</span>
+                  <p className="text-xs sm:text-sm font-extrabold leading-relaxed text-black">
+                    Translating messy, human-dependent operational bottlenecks into air-tight, automated software infrastructure.
+                  </p>
+                </div>
+                
+                {/* Key Capabilities */}
+                <div className="space-y-1">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block select-none">Key Capabilities</span>
+                  <p className="text-[11px] sm:text-xs font-semibold leading-relaxed text-black/95">
+                    Custom JavaScript workflow scripting, end-to-end API integration architecture, custom webhooks, and complex database management.
+                  </p>
+                </div>
               </div>
-              <div className="font-mono text-[9px] uppercase font-bold text-black/60 border-t border-black/10 pt-2 block">
-                Workflow Orchestration DNA
+
+              {/* Engine Tags */}
+              <div className="space-y-2 pt-2 border-t border-black/10">
+                <span className="font-mono text-[8px] uppercase tracking-widest text-black/60 font-black block select-none">Engine Tags</span>
+                <div className="flex flex-wrap gap-1.5 select-none">
+                  {["n8n", "Make (Integromat)", "JavaScript", "APIs", "SQL"].map((tag, tagIdx) => (
+                    <span 
+                      key={tagIdx} 
+                      className="border border-black bg-white px-2 py-0.5 font-mono text-[9px] font-bold shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-black"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 
             {/* Column 2: Soft Pink */}
-            <div className="bg-[#F472B6] border-4 border-black p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
-              <div className="space-y-3">
-                <h3 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none">
-                  REVENUE & GTM DESIGN
+            <div className="bg-[#F472B6] border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
+              <div className="space-y-4">
+                <h3 className="text-lg sm:text-xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none leading-tight">
+                  [ 02 // REVENUE OPERATIONS & GTM ARCHITECTURE ]
                 </h3>
-                <ul className="space-y-3.5 text-xs sm:text-sm font-semibold leading-relaxed pl-0 list-none text-black">
-                  <li className="relative pl-4">
-                    <span className="absolute left-0 top-1.5 w-1.5 h-1.5 bg-black border border-black"></span>
-                    Precision target optimization via Ideal Customer Profile (ICP) data filtering.
-                  </li>
-                  <li className="relative pl-4">
-                    <span className="absolute left-0 top-1.5 w-1.5 h-1.5 bg-black border border-black"></span>
-                    Comprehensive growth infrastructure setups using <span className="font-mono bg-white border border-black px-1.5 py-0.5 rounded shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-[9px] sm:text-xxs font-extrabold uppercase">Clay</span>, <span className="font-mono bg-white border border-black px-1.5 py-0.5 rounded shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-[9px] sm:text-xxs font-extrabold uppercase">Apollo</span>, and outbound sequencing tools.
-                  </li>
-                </ul>
+                
+                {/* Core Thesis */}
+                <div className="space-y-1">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block select-none">Core Thesis</span>
+                  <p className="text-xs sm:text-sm font-extrabold leading-relaxed text-black">
+                    Structuring data-driven sales pipelines that eliminate coordination friction and accelerate outbound revenue engine velocity.
+                  </p>
+                </div>
+                
+                {/* Key Capabilities */}
+                <div className="space-y-1">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block select-none">Key Capabilities</span>
+                  <p className="text-[11px] sm:text-xs font-semibold leading-relaxed text-black/95">
+                    Algorithmic Ideal Customer Profile (ICP) data mapping, automated multi-channel outbound sequencing, and centralized multi-channel CRM architecture.
+                  </p>
+                </div>
               </div>
-              <div className="font-mono text-[9px] uppercase font-bold text-black/60 border-t border-black/10 pt-2 block">
-                GTM System Architecture
+
+              {/* Engine Tags */}
+              <div className="space-y-2 pt-2 border-t border-black/10">
+                <span className="font-mono text-[8px] uppercase tracking-widest text-black/60 font-black block select-none">Engine Tags</span>
+                <div className="flex flex-wrap gap-1.5 select-none">
+                  {["Clay", "Apollo", "Reply.io", "Freshsales", "Intercom"].map((tag, tagIdx) => (
+                    <span 
+                      key={tagIdx} 
+                      className="border border-black bg-white px-2 py-0.5 font-mono text-[9px] font-bold shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-black"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 
             {/* Column 3: Light Violet */}
-            <div className="bg-[#A78BFA] border-4 border-black p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
-              <div className="space-y-3">
-                <h3 className="text-xl sm:text-2xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none">
-                  DATA & SCALE TRACKING
+            <div className="bg-[#A78BFA] border-4 border-black p-5 sm:p-6 shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] flex flex-col justify-between space-y-4">
+              <div className="space-y-4">
+                <h3 className="text-lg sm:text-xl font-black uppercase tracking-tight text-black border-b-2 border-black/30 pb-2 select-none leading-tight">
+                  [ 03 // DIGITAL SUPPLY CHAIN & SKU INFRASTRUCTURE ]
                 </h3>
-                <ul className="space-y-3.5 text-xs sm:text-sm font-semibold leading-relaxed pl-0 list-none text-black">
-                  <li className="relative pl-4">
-                    <span className="absolute left-0 top-1.5 w-1.5 h-1.5 bg-black border border-black"></span>
-                    Deep SQL query construction, custom dashboarding, and KPI metric tracking.
-                  </li>
-                  <li className="relative pl-4">
-                    <span className="absolute left-0 top-1.5 w-1.5 h-1.5 bg-black border border-black"></span>
-                    Complete lifecycle tracking drawing from my Rutgers Supply Chain Logistics background.
-                  </li>
-                </ul>
+                
+                {/* Core Thesis */}
+                <div className="space-y-1">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block select-none">Core Thesis</span>
+                  <p className="text-xs sm:text-sm font-extrabold leading-relaxed text-black">
+                    Building highly scalable backend frameworks to monitor product lifecycles, global pricing alerts, and high-throughput multi-channel catalogs.
+                  </p>
+                </div>
+                
+                {/* Key Capabilities */}
+                <div className="space-y-1">
+                  <span className="font-mono text-[9px] uppercase tracking-wider text-black/60 font-black block select-none">Key Capabilities</span>
+                  <p className="text-[11px] sm:text-xs font-semibold leading-relaxed text-black/95">
+                    Optimization of 1,000+ SKU workflows, automated live commodity rate tracking modules (Gold, Silver, USD), and cross-functional operational dashboard development.
+                  </p>
+                </div>
               </div>
-              <div className="font-mono text-[9px] uppercase font-bold text-black/60 border-t border-black/10 pt-2 block">
-                Process Analytics & Tracking
+
+              {/* Engine Tags */}
+              <div className="space-y-2 pt-2 border-t border-black/10">
+                <span className="font-mono text-[8px] uppercase tracking-widest text-black/60 font-black block select-none">Engine Tags</span>
+                <div className="flex flex-wrap gap-1.5 select-none">
+                  {["Rutgers Supply Chain", "Amazon Seller Central", "Flipkart", "KPI Dashboards"].map((tag, tagIdx) => (
+                    <span 
+                      key={tagIdx} 
+                      className="border border-black bg-white px-2.5 py-0.5 font-mono text-[9px] font-bold shadow-[1.5px_1.5px_0px_0px_rgba(0,0,0,1)] text-black"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
 
