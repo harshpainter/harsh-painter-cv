@@ -77,12 +77,7 @@ function Home() {
   return (
     <div className="min-h-screen w-full flex flex-col justify-between py-12 px-4 sm:p-10 lg:p-16 relative overflow-hidden bg-transparent">
       
-      {/* Decorative Console Lines top right */}
-      <div className="absolute top-6 right-6 hidden md:block font-mono text-[9px] text-zinc-400 text-right uppercase tracking-wider space-y-0.5">
-        <div>System: Online // Mode: Router</div>
-        <div>Active Route: /root</div>
-        <div>Vite v8.0.12 // React 19</div>
-      </div>
+
 
       <div className="max-w-4xl mx-auto w-full flex-grow flex flex-col justify-center space-y-8 lg:space-y-12 my-auto">
         
